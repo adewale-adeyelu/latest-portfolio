@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    overflow-x: hidden;
+html {
+    overflow-x: hidden !important;
 }
 body{
     background-color:  #000000;
@@ -58,10 +58,4 @@ body{
     border-radius: 50px;
     width: 44px;
     height: 44px;
-}
-
-@media only screen and  (max-width:768px) {
-    body{
-        overflow-x: hidden;
-    }
 }
